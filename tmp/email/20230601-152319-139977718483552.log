@@ -1,0 +1,18 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: [localhost] Please Confirm Your E-mail Address
+From: webmaster@localhost
+To: badigunawan@example.com
+Date: Thu, 01 Jun 2023 15:23:19 -0000
+Message-ID: <168563299957.90.14093374677432275857@2bee64d9a1b8>
+
+Hello from localhost!
+
+You're receiving this e-mail because user badigunawan has given your e-mail address to register an account on localhost.
+
+To confirm this is correct, go to http://localhost/api/user-management/auth/registration/account-confirm-email/Mg:1q4k91:yHS1xA9GWjCSOgCZmbtpv3ARXBG9LGWJEeScKkQLu_c/
+
+Thank you for using localhost!
+localhost
+-------------------------------------------------------------------------------
