@@ -40,6 +40,8 @@ class CustomUserManager(BaseUserManager):
         return self.create_user(username, email, password, password, **other_fields)
 
     def create_user(self, username, email, gender, password, password2, **other_fields):
+        username = username.lower()
+
         email = self.normalize_email(email)
 
         user = self.model(username=username, email=email, gender=gender, password=password, **other_fields)

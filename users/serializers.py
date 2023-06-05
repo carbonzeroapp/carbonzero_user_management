@@ -10,7 +10,10 @@ from users.models import User
     exclude_fields=('email',),
 )
 class CustomLoginSerializer(LoginSerializer):
-    pass
+    def to_internal_value(self, data):
+        if 'username' in data:
+            data['username'] = data['username'].lower()
+        return super().to_internal_value(data)
 
 
 class CustomRegisterSerializer(serializers.Serializer):
